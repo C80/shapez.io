@@ -1,39 +1,54 @@
 steamPage:
-    shortText: shapez.io este un joc despre construirea fabricilor pentru a
-        automatiza crearea și combinarea a din ce in ce mai complexe forme
+    # This is the short text appearing on the steam page
+    # en: shapez is a game about building factories to automate the creation and processing of increasingly complex shapes across an infinitely expanding map.
+    shortText: shapez este un joc despre construirea fabricilor pentru a
+        automatiza crearea și combinarea de forme din ce in ce mai complexe
         într-o hartă infinită.
-    discordLinkShort: Official Discord
+    # This is the text shown above the Discord link
+    # en: Official Discord
+    discordLinkShort: Server Oficial de Discord
+    # en: Do you like automation games? Then you are in the right place!
+    #     shapez is a relaxed game in which you have to build factories for the automated production of geometric shapes. As the level increases, the shapes become more and more complex, and you have to spread out on the infinite map.
+    #     And as if that wasn't enough, you also have to produce exponentially more to satisfy the demands - the only thing that helps is scaling! While you only have to process shapes at the beginning, you will later have to color them - by extracting and mixing colors!
+    #     Buying the game on Steam gives you access to the full version, but you can also play a demo at shapez first and decide later!
     intro: >-
-        Shapez.io un joc relaxant in care trebuie sa construiești fabrici pentru
-        a automatiza producția de figuri geometrice
+        Shapez un joc relaxant in care trebuie sa construiești fabrici pentru
+        a automatiza producția de figuri geometrice.
+        
+        Pe măsură ce nivelul crește, figurile devin din ce în ce mai complexe și vei fi nevoit să te extinzi pe harta infinită.
 
-        Pe măsură ce nivelul crește figurile devin din ce în ce mai complexe și vei fi nevoit să te extinzi pe harta infinită.
+        Dacă asta nu era suficient, vei fi nevoit să produci exponențial mai multe figuri pentru a satisface cererea - singurul lucru care te poate ajuta este extinderea !
 
-        Daca asta nu era suficient, vei fi nevoit sa produci exponențial mai multe figuri pentru a satisface cererea - singurul lucru care te poate ajuta este extinderea !
+        După ce la început procesezi doar forme, mai târziu vei fi nevoit să le colorezi - pentru asta vei avea nevoie să extragi și să amesteci culori !
 
-        Dacă la început procesezi doar forme, vei fi nevoit sa le colorezi mai târziu - pentru asta vei avea nevoie să extragi și să amesteci culori !
-
-        Cumpărarea jocului pe Steam îți va asigura acesul la versiunea finală, dar te poți juca o versiune demonstrativă pe shapez.io mai întâi și să te decizi mai târziu !
-    what_others_say: Ce spun alții despre shapez.io
-    nothernlion_comment: This game is great - I'm having a wonderful time playing,
-        and time has flown by.
-    notch_comment: Oh crap. I really should sleep, but I think I just figured out
-        how to make a computer in shapez.io
-    steam_review_comment: This game has stolen my life and I don't want it back.
-        Very chill factory game that won't let me stop making my lines more
-        efficient.
+        Cumpărarea jocului pe Steam îți va asigura acesul la versiunea completă, dar poți juca o versiune demonstrativă pe shapez.io și să te decizi mai târziu !
+    # en: What people say about shapez
+    what_others_say: Ce spun alții despre shapez
+    # en: This game is great - I'm having a wonderful time playing, and time has flown by.
+    nothernlion_comment: Acest joc este grozav - Mă distrez minunat jucându-l, iar timpul a zburat.
+    # en: Oh crap. I really should sleep, but I think I just figured out how to make a computer in shapez
+    notch_comment: La naiba. ar trebui să mai și dorm, dar cred că tocmai am descoperit cum să construiesc un computer în shapez
+    # en: This game has stolen my life and I don't want it back. Very chill factory game that won't let me stop making my lines more efficient.
+    steam_review_comment: Acest joc mi-a furat viața dar nu o mai vreau înapoi.
+        Un joc de asamblare foarte relaxant, dar care nu mă lasă să mă opresc din optimizarea
+        benzilor.
 global:
     loading: Se Încarcă
     error: Eroare
-    thousandsDivider: ","
-    decimalSeparator: .
+    # How big numbers are rendered, e.g. "10,000"
+    thousandsDivider: "."
+    # What symbol to use to separate the integer part from the fractional part of a number, e.g. "0.4"
+    decimalSeparator: ","
+    # The suffix for large numbers, e.g. 1.3k, 400.2M, etc.
     suffix:
         thousands: k
         millions: M
         billions: B
         trillions: T
+    # Shown for infinitely big numbers
     infinite: inf
     time:
+        # Used for formatting past time dates
         oneSecondAgo: acum o secundă
         xSecondsAgo: acum <x> secunde
         oneMinuteAgo: acum un minut
@@ -42,6 +57,7 @@ global:
         xHoursAgo: acum <x> ore
         oneDayAgo: acum o zi
         xDaysAgo: acum <x> zile
+        # Short formats for times, e.g. '5h 23m'
         secondsShort: <seconds>s
         minutesAndSecondsShort: <minutes>m <seconds>s
         hoursAndMinutesShort: <hours>h <minutes>m
@@ -54,13 +70,24 @@ global:
         shift: SHIFT
         space: SPACE
     loggingIn: Logare
-    loadingResources: Downloading additional resources (<percentage> %)
+    loadingResources: Descărcare resurse adiționale (<percentage> %)
     discount: -<percentage>%
-    discountSummerSale: SPECIAL PROMOTION! Offer ends 7 July
+    discountSummerSale: PROMOȚIE SPECIALĂ! Se termină pe 7 Iulie
 demoBanners:
+    # This is the "advertisement" shown in the main menu and other various places
     title: Versiunea Demo
-    intro: |-
-        Obțineți jocul complet <strong>acum</strong> pentru a-l debloca:<ul>
+    # en: Play the full version now for:
+    titleV2: "Joacă acum versiunea completă pentru:"
+    # en: Get the full game <strong>now</strong> to unlock:<ul>
+    #       <li>All 26 levels + infinite Freeplay</li>
+    #       <li>22 new buildings</li>
+    #       <li>Mod support</li>
+    #       <li>Achievements</li>
+    #       <li>Dark Mode</li>
+    #       <li>... and a lot more!</li>
+    #   </ul>
+    intro: >-
+        Obține jocul complet <strong>acum</strong> pentru a debloca:<ul>
             <li>Toate cele 26 de nivele + Freeplay infinit</li>
             <li>22 de clădiri noi</li>
             <li>Suport pentru moduri</li>
@@ -68,45 +95,65 @@ demoBanners:
             <li>Modul întunecat</li>
             <li>...și multe altele!</li>
         </ul>
-    playtimeDisclaimer: Versiunea completă conține mai mult de <strong>20 de ore de
-        conținut</strong>.
+    # en: The full version contains more than <strong>20 hours of additional content</strong>!
+    playtimeDisclaimer: Versiunea completă conține mai mult de <strong>20 de ore de conținut</strong>!
+    # en: <playerCount> players like you are playing shapez on Steam right now
     playerCount: <playerCount> jucători ca tine se joacă în prezent shapez pe Steam
+    # en: Until end of demo
     untilEndOfDemo: Până la sfârșitul demonstrației
-    playtimeDisclaimerDownload: Puteți continua salvarea în versiunea completă!
-        Faceți clic <strong>aici</strong> pentru a descărca jocul salvat.
-    titleV2: "Joacă acum versiunea completă pentru:"
+    # en: You can continue your savegame in the full version! Click <strong>here</strong> to download your savegame.
+    playtimeDisclaimerDownload: Poți continua salvarea în versiunea completă!
+        Apasă <strong>aici</strong> pentru a descărca salvarea.
 mainMenu:
     play: Joacă
-    changelog: Jurnalul schimbărilor
-    importSavegame: Importă
-    openSourceHint: Acest joc este open source!
-    discordLink: Serverul oficial de Discord
-    helpTranslate: Ajută să traducem!
-    browserWarning: Scuze, dar jocul este cunoscut să ruleze încet pe browser-ul
-        tău! Instalează versiunea standalone sau descarcă chrome pentru
-        experiența completă.
-    savegameLevel: Nivelul <x>
-    savegameLevelUnknown: Nivel necunoscut
     continue: Continuă
     newGame: Joc nou
-    madeBy: Făcut de <author-link>
+    changelog: Jurnalul schimbărilor
     subreddit: Reddit
+    # en: Import
+    importSavegame: Importă
+    # en: This game is open source!
+    openSourceHint: Acest joc este open source!
+    # en: Official Discord Server
+    discordLink: Serverul oficial de Discord
+    helpTranslate: Ajută să traducem!
+    madeBy: Făcut de <author-link>
+    # en: No active savegames found - Click play to start a new game!
+    noActiveSavegames: Nu au fost găsite salvări active - Apasă play pentru a începe un joc nou!
+    # en: Bought shapez on Steam? Play the full version in your Browser!
+    playFullVersionV2: Ai achiziționat shapez pe Steam? Joacă versiunea completă în Browser!
+    # en: You can now also play the full version in your Browser!
+    playFullVersionStandalone: Acum poți juca versiunea completă și în Browser!
+    # en: You are now playing the full version!
+    playingFullVersion: Acum jucați versiunea completă!
+    logout: Delogare
+
+    # This is shown when using firefox and other browsers which are not supported.
+    # en: Sorry, but the game is known to run slowly on your browser! Get the full version or download Google Chrome for the full experience.
+    browserWarning: >-
+        Scuze, dar jocul este cunoscut să ruleze încet pe browser-ul tău!
+        Instalează versiunea standalone sau descarcă chrome pentru experiența completă.
+
+    savegameLevel: Nivelul <x>
+    savegameLevelUnknown: Nivel necunoscut
     savegameUnnamed: Fară nume
-    puzzleMode: Puzzle Mode
-    back: Back
-    puzzleDlcText: Îți place să compresezi și să optimizezi fabricile ? Ia acum
-        Puzzle DLC pe Steam pentru mai multă distracție !
+    puzzleMode: Modul Puzzle
+    back: Înapoi
+    
+    # en: Do you enjoy compacting and optimizing factories? Get the Puzzle DLC now on Steam for even more fun!
+    puzzleDlcText: >-
+        Îți place să comprimi și să optimizezi fabricile ?
+        Ia acum DLC-ul Puzzle de pe Steam pentru și mai multă distracție !
+    # en: Wishlist now!
     puzzleDlcWishlist: Adaugă în Wishlist acum!
-    puzzleDlcViewNow: Vezi DlC
+    # en: View Dlc
+    puzzleDlcViewNow: Vezi DLC
     mods:
-        title: Active Mods
-        warningPuzzleDLC: Playing the Puzzle DLC is not possible with mods. Please
-            disable all mods to play the DLC.
-    playingFullVersion: You are now playing the full version!
-    logout: Logout
-    noActiveSavegames: No active savegames found - Click play to start a new game!
-    playFullVersionV2: Bough shapez on Steam? Play the full version in your Browser!
-    playFullVersionStandalone: You can now also play the full version in your Browser!
+        # en: Active Mods
+        title: Moduri Active
+        # en: Playing the Puzzle DLC is not possible with mods. Please disable all mods to play the DLC.
+        warningPuzzleDLC: Nu poate fi jucat DLC-ul Puzzle cu moduri. Vă rugăm
+            să inactivați toate modurile pentru a accesa acest DLC.
 dialogs:
     buttons:
         ok: OK
@@ -121,7 +168,7 @@ dialogs:
         showUpgrades: Vezi Upgrade-urile
         showKeybindings: Arată tastele configurate
         retry: Reîncearcă
-        continue: Continue
+        continue: Continuă
         playOffline: Joacă Offline
     importSavegameError:
         title: Eroare la Importare
@@ -138,21 +185,21 @@ dialogs:
             la nivelul <savegameLevel><br><br> Acest lucru nu poate fi anulat!
     savegameDeletionError:
         title: Eroare la ștergere
-        text: "Nu a fost reușită ștearga salvarii:"
+        text: "Nu a fost reușită ștergerea salvării:"
     restartRequired:
         title: Repornire necesară
         text: Trebuie să repornești jocul pentru a aplica setările.
     editKeybinding:
         title: Schimbă Tastele configurate
-        desc: Apasă tasta sau butonul mouse-ului pe care vrei să îl atribui, sau escape
+        desc: Apasă tasta sau butonul mouse-ului pe care vrei să îl atribui, sau tasta Escape
             pentru a anula.
     resetKeybindingsConfirmation:
         title: Resetează Tastele configurate
-        desc: Acesta va reseta toate tastele configurate la valorile obișnuite. Vă rog
+        desc: Acesta va reseta toate tastele configurate la valorile inițiale. Vă rog
             să confirmați.
     keybindingsResetOk:
         title: Tastele configurate se resetează
-        desc: Tastele configurate au fost resetate la valorile lor obișnuite!
+        desc: Tastele configurate au fost resetate la valorile lor inițiale!
     featureRestriction:
         title: Versiune Demo
         desc: Ai încercat să accesezi o funcție (<feature>) care nu este disponibilă în
@@ -1216,16 +1263,16 @@ demo:
     settingNotAvailable: Nu este valabil în demo.
 tips:
     - HUB-ul acceptă orice fel de input, nu doar forma cerută curent!
-    - Asigură-te ca fabricile sunt modulare - o să merite!
+    - Asigură-te că fabricile sunt modulare - o să merite!
     - Nu construi prea aproape de HUB, altfel va fi un haos!
-    - Daca stivuirea nu merge, încearcă să interschimbi input-urile.
-    - Poși modifica sirecția planuitorului de benzi apăsând <b>R</b>.
-    - Apăsarea <b>CTRL</b> apermite tragerea benzilor fără orientare automată.
-    - Rațiile stau la fel, cât timp upgrade-urile sunt de același nivel.
+    - Dacă stivuirea nu merge, încearcă să interschimbi intrările.
+    - Poți modifica direcția planificatorului de benzi apăsând <b>R</b>.
+    - Apăsarea <b>CTRL</b> permite tragerea benzilor fără orientare automată.
+    - Proporțiile rămân la fel, cât timp upgrade-urile sunt de același nivel.
     - Executarea în serie e mai eficientă decât cea în paralel.
     - Vei debloca alte variante ale construcțiilor mai târziu!
     - Poți folosi <b>T</b> pentru a schimba prin diferitele variante.
-    - Simetria e cheia!
+    - Simetria e utilă!
     - Poți folosi tipuri diferite de tunele alternativ.
     - Încearcă să construiești fabrici compacte - o să merite mai târziu!
     - Pictorul are o variantă în oglindă pe care o puteți selecta cu <b>T</b>
@@ -1235,22 +1282,21 @@ tips:
     - Nu e nevoie să împărțiți itemele în mod egal pentru o eficiență deplină.
     - Apăsând <b>SHIFT</b> va activa planificatorul de benzi, permițându-vă să
       plasați linii lungi de benzi cu ușurință.
-    - Tăietoarele taie întotdeauna vertical, indiferent de orientarea lor.
+    - Tăietoarele vor tăia întotdeauna vertical, indiferent de orientarea lor.
     - Pentru a obține alb amestecați toate cele trei culori.
-    - Buffer-ul de stocare prioritizează primul output.
+    - Buffer-ul de stocare prioritizează prima ieșire (cea din stânga).
     - Investiți timp pentru a construi modele repetabile - merită!
     - Apăsând <b>CTRL</b> permite amplasarea mai multor clădiri.
     - Poți ține apăsat <b>ALT</b> pentru a inversa direcția benzilor plasate.
-    - Eficiența e cheia!
-    - Patch-urile de formă care sunt mai departe de hub sunt mai complexe.
+    - Eficiența e esențială!
+    - Sursele de forme care sunt mai depărtate de hub sunt mai complexe.
     - Mașinile au o viteză limitată, împărțiți-le pentru o eficiență maximă.
     - Folosiți balansoare pentru a vă maximiza eficiența.
-    - Organizarea este importantă. Încercați să nu intersectați benzile prea
-      mult.
+    - Organizarea este importantă. Încercați să nu intersectați benzile prea mult.
     - Planificați din timp, sau va fi un haos uriaș!
     - Nu vă ștergeți vechile fabrici! Veți avea nevoie de ele pentru a debloca
-      upgrade-urile.
-    - Încercați să bateți singur nivelul 20 înainte de a căuta ajutor!
+      upgrade-uri.
+    - Încercați să bateți singur nivelul 20 sau 26 înainte de a căuta ajutor!
     - Nu complica lucrurile, încearcă să rămâi simplu și vei merge departe.
     - Poate fi necesar să reutilizați fabricile mai târziu în joc.
       Planificați-vă fabricile pentru a fi reutilizabile.
@@ -1260,16 +1306,16 @@ tips:
     - Cu module, spațiul este doar o percepție; o preocupare pentru oamenii
       muritori.
     - Realizați o fabrică separată de planuri. Sunt importante pentru module.
-    - Aruncați o privire mai atentă asupra mixerului de culori, iar întrebările
+    - Aruncând o privire mai atentă asupra mixerului de culori, întrebările
       tale vor primi răspuns.
-    - Utilizați <b> CTRL </b> și faceți clic pentru a selecta o zonă.
+    - Utilizați <b>CTRL</b> și faceți clic pentru a selecta o zonă.
     - Construirea prea aproape de hub poate împiedica proiectele ulterioare.
-    - Pictograma de fixare de lângă fiecare formă din lista de upgrade o fixează
+    - Pictograma pioneză de lângă fiecare formă din lista de upgrade o fixează
       pe ecran.
     - Amestecați toate culorile primare împreună pentru a face alb!
-    - Aveți o hartă infinită, nu vă strângeți fabrica, extindeți-vă!
+    - Aveți o hartă infinită, nu vă înghesuiți fabrica, extindeți-vă!
     - Încercați și Factorio! Este jocul meu preferat.
-    - Tăietoarele cvadruple tăie în sensul acelor de ceasornic începând din
+    - Tăietoarele cvadruple taie în sensul acelor de ceasornic începând din
       dreapta sus!
     - Puteți descărca salvările din meniul principal!
     - Acest joc are o mulțime de scurtături de taste utile! Asigurați-vă că
@@ -1284,7 +1330,7 @@ puzzleMenu:
     play: Joacă
     edit: Editează
     title: Titlu
-    createPuzzle: Crează puzzle
+    createPuzzle: Creează puzzle
     loadPuzzle: Încarcă
     reviewPuzzle: Revizuie și publică
     validatingPuzzle: Validează Puzzle
@@ -1299,7 +1345,7 @@ puzzleMenu:
         hard: Greu
         completed: Completat
         medium: Medium
-        official: Official
+        official: Oficial
         trending: În trending azi
         trending-weekly: În treding săptămânal
         categories: Categorii
@@ -1324,17 +1370,17 @@ puzzleMenu:
         medium: Medium
         hard: Greu
         unknown: Neevaluat
-    dlcHint: Ai cumpărat deja DLC-ul? Asigură-te ca e activat pe shapez.io în
+    dlcHint: Ai cumpărat deja DLC-ul? Asigură-te ca e activat pe shapez în
         biblioteca ta, selectând Properietăți > DLC-uri.
     search:
         action: Caută
-        placeholder: Introdu Puzzle sau autor
+        placeholder: Introdu Puzzle sau numele autorului
         includeCompleted: Include completate
         difficulties:
             easy: Ușor
             medium: Medium
             hard: Greu
-            any: Any Difficulty
+            any: Orice Dificultate
         durations:
             any: Orice durată
             short: Scurt (< 2 minute)
@@ -1352,7 +1398,7 @@ backendErrors:
     not-found: Puzzle-ul căutat nu poate fi găsit
     bad-category: Categoria căutată nu poate fi găsită
     bad-short-key: Cheia scurtă furnizată este invalidă
-    profane-title: Titlul puzzle-ului contine cuvinte vulgare.
+    profane-title: Titlul puzzle-ului conține cuvinte vulgare.
     bad-title-too-many-spaces: Titlul puzzle-ului prea scurt.
     bad-shape-key-in-emitter: Un producător constant are un item invalid.
     bad-shape-key-in-goal: Un acceptor de obiectiv are un item invalid.
@@ -1367,11 +1413,11 @@ backendErrors:
         dorești înlăturat, te rog contactează-ne la support@shapez.io!
     no-permission: Nu ai permisiunea de a face acest lucru.
 mods:
-    title: Mods
-    author: Author
-    version: Version
-    modWebsite: Website
-    openFolder: Open Mods Folder
+    title: Moduri
+    author: Autor
+    version: Versiune
+    modWebsite: Site Web
+    openFolder: Deschide Folder-ul pentru Moduri
     folderOnlyStandalone: Opening the mod folder is only possible when running the standalone.
     browseMods: Browse Mods
     modsInfo: To install and manage mods, copy them to the mods folder within the
