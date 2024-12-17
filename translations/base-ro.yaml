@@ -63,9 +63,9 @@ demoBanners:
         Obțineți jocul complet <strong>acum</strong> pentru a debloca:<ul>
             <li>Toate cele 26 de niveluri + Freeplay infinit</li>
             <li>22 de clădiri noi</li>
-            <li>Suport pentru moduri</li>
+            <li>Suport pentru modificări</li>
             <li>Realizări</li>
-            <li>Modul întunecat</li>
+            <li>Mod vizual întunecat</li>
             <li>...și multe altele!</li>
         </ul>
     playtimeDisclaimer: Versiunea completă conține mai mult de <strong>20 de ore de
@@ -99,9 +99,9 @@ mainMenu:
     puzzleDlcWishlist: Adaugă în Wishlist acum!
     puzzleDlcViewNow: Vezi DLC
     mods:
-        title: Mod-uri Active
-        warningPuzzleDLC: Nu puteți juca DLC-ul Puzzle dacă aveți modificări active.
-            Dezactivați toate modurile pentru a porni DLC-ul.
+        title: Modificări Active
+        warningPuzzleDLC: Nu puteți juca DLC-ul Puzzle dacă aveți Modificări active.
+            Dezactivați toate mod-urile pentru a porni DLC-ul.
     playingFullVersion: Acum jucați versiunea completă!
     logout: Deconectare
     noActiveSavegames: Nu au fost identificate salvări active - Clic Joacă pentru a începe un joc nou!
@@ -177,7 +177,7 @@ dialogs:
             vreți să faceți asta?
     blueprintsNotUnlocked:
         title: Nu este deblocat încă
-        desc: Planurile nu au fost deblocate încă! Completează nivelul 12 să le
+        desc: Planurile nu au fost deblocate încă! Finalizează nivelul 12 să le
             deblochezi.
     keybindingsIntroduction:
         title: Taste configurate folositoare
@@ -292,7 +292,7 @@ dialogs:
         title: Șterge Puzzle?
         desc: Ești sigur că vrei să ștergi '<title>'? Această modificare e permanentă!
     modsDifference:
-        title: Avertizare Mod-uri
+        title: Avertizare Modificări
         desc: Modificările actual instalate diferă de cele cu care a fost creată salvarea.
             Aceasta poate cauza erori în cadrul salvării sau poate chiar împiedica încărcarea.
             Sigur doriți să continuați?
@@ -1383,8 +1383,5 @@ mods:
         description: Activarea sau dezactivarea Modificărilor este în prezent posibilă numai prin copierea
             fișierului modificării din/în folderul mods/. Cu toate acestea, posibilitatea
             de a le activa/dezactiva de aici este planificată pentru o actualizare viitoare!
-            --
-              
-            --
     browserNoSupport: Din cauza restricțiilor browserului, în prezent este posibil
         să instalați Modificări doar în versiunea Steam - Ne pare rău!
